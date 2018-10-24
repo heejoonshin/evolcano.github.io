@@ -22,6 +22,12 @@ author:
 version:             1.0.0
 
 
+markdown: kramdown
+
+
+
+  kramdown:
+    math_engine: mathjax
 category_dir: category/
 tag_dir: tag/
 excerpt_separator: ""
