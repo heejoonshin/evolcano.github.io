@@ -61,7 +61,7 @@ add_custom_target(qtum COMMAND make -C ${qtum_SOURCE_DIR} -j 6
 ```
 다음의 내용을 추가합니다.
 
-위 내용은 https://stackoverflow.com/questions/26918459/using-local-makefile-for-clion-instead-of-cmake 여기를 참고 하였습니다.
+위 내용은 [Clion에서 make파일이용해 빌드하는 방법](https://stackoverflow.com/questions/26918459/using-local-makefile-for-clion-instead-of-cmake) 을 참고 하였습니다.
 
 위 과적을 거친후 Clion이 CmakeLists를 리로드 하면서 빌드를 하는 것을 볼 수 있습니다.
 
