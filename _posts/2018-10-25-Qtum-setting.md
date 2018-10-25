@@ -44,7 +44,7 @@ Qtum은 autotools로 빌드환경 설정이 되어있습니다.
 Makefile이 생성된 것을 확인한 후
 Clion을 실행시킨 후 Import Project메뉴를 선택 하여 qtum 프로젝트를 열면 자동으로 Cmake가 작성됩니다.
 
-![qtum_setting_import.png]({{ site.url }}/assets/qtum_setting_import.png)
+![qtum_setting_import.PNG]({{ site.url }}/assets/qtum_setting_import.PNG)
 
 해당 화면이 보이면 Ok버튼 누르면 Clion 자동으로 인덱스를 생성하면서 Cmake파일을 생성합니다.
 
@@ -69,7 +69,7 @@ add_custom_target(qtum COMMAND make -C ${qtum_SOURCE_DIR} -j 6
 
 실행 할 수 있도록 Working directory와 Executable을 설정해줍니다.
 
-![qtum_setting_config.png]({{ site.url }}/assets/qtum_setting_config.png)
+![qtum_setting_config.PNG]({{ site.url }}/assets/qtum_setting_config.PNG)
 
 Wroking directory는 해당 qtum project를 적어 주면 되고, Executable은 프로젝트 하위에 src의 qtumd를 찾아 넣어주면 됩니다.
 
